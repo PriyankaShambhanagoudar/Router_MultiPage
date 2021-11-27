@@ -1,6 +1,8 @@
 import { Route } from "react-router-dom";
 import Welcome from "./pages/Welcome";
 import Products from "./pages/Products";
+import ProductDetail from "./pages/ProductDetail";
+
 import MainHeader from "./components/MainHeader";
 
 function App() {
@@ -15,6 +17,9 @@ function App() {
         <Route path="/products">
           <Products />
         </Route>
+        <Route path="/product-detail/:productId">
+          <ProductDetail />
+        </Route>
       </main>
     </div>
   );
@@ -23,4 +28,6 @@ function App() {
 export default App;
 
 //our-domain.com/welcome =>Welcome Components
-//our-domain.com/products =>Welcome products
+//our-domain.com/products =>Welcome products (anyname) 
+
+//our-domain.com/product-detail/a-book =>ProductDetail
