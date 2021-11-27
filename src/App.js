@@ -29,5 +29,4 @@ export default App;
 
 //our-domain.com/welcome =>Welcome Components
 //our-domain.com/products =>Welcome products (anyname) 
-
 //our-domain.com/product-detail/a-book =>ProductDetail
